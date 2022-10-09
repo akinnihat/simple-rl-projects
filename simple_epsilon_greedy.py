@@ -2,8 +2,8 @@ import numpy as np
 
 
 class Action:
-    def __init__(self, action_no):
-        self.action_no = action_no
+    def __init__(self, action_id):
+        self.action_no = action_id
         self.estimated_reward_Q = 0                       # Estimated value of action
         self.step_size_N = 0                              # Step size of action
 
